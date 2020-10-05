@@ -1,0 +1,41 @@
+/*CSS style sheet for index.html*/
+.body {
+  background-color: black;
+}
+
+.welcome {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 1px;
+  text-rendering: geometricPrecision;
+}
+.blurred {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0px;
+  background-size: inherit;
+  background-position: center;
+}
+
+.btn {
+  background-color: rgb(0, 0, 0);
+  border-color: black;
+  padding-bottom: 250px;
+}
